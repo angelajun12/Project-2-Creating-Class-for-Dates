@@ -1,5 +1,9 @@
 # Project 2: Creating a Class for Dates
 
+Assignment from CS 212 (Object Oriented Programming in JAVA) with Professor Kenneth Lord
+
+Course taken @ Queens College Fall 2016
+
 ￼￼￼￼￼Create a class called Date212 to represent a date. It will store the year, month and day as integers (not as a String), so you will need three private instance variables. Two constructors should be provided, one that takes three integer parameters, and one that takes a String (representing the date as in project 1). The constructor with the String parameter should validate the parameter as in project 1, and then use the substring method of class String to pull out the month, day and year, parse them as integers and call the three-argument constructor. The three-argument constructor should make sure that the month and day values are legal. To call another constructor from within a constructor, use the method this:
 
 The format of the input file will be the same as Project 1.
